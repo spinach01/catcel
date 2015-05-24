@@ -36,9 +36,15 @@ public class Mall implements Serializable{
 	String recuZipCodeCal;
 	String recuAddressCal;
 	int userNo;
+	int orderTotalAmount;
 	
 	
-	
+	public int getOrderTotalAmount() {
+		return orderTotalAmount;
+	}
+	public void setOrderTotalAmount(int orderTotalAmount) {
+		this.orderTotalAmount = orderTotalAmount;
+	}
 	@Override
 	public String toString() {
 		return "Mall [mallNo=" + mallNo + ", mallName=" + mallName
