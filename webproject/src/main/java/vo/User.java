@@ -15,6 +15,7 @@ public class User {
 	String userPoint;
 	String userRegChar;
 	
+	
 	public int getUserNo() {
 		return userNo;
 	}
